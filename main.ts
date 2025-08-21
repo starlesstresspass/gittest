@@ -3,7 +3,7 @@ export {};
 console.log("Hello,World!");
 let a: string = "hey";
 console.log(typeof a);
-const ARRAY_LANG: any  = ["HTML", "CSS"];
+const ARRAY_LANG: string[]  = ["HTML", "CSS"];
 ARRAY_LANG.push("JAVASCRIPT");
 console.log(ARRAY_LANG)
 parseInt("101", 5);

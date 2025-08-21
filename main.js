@@ -101,6 +101,7 @@ rl.question('Enter the first number:', function (firstInput) {
             var result = calculator(a, b, operator);
             console.log("result: ".concat(result));
             rl.close();
+            // tezt
         });
     });
 });
